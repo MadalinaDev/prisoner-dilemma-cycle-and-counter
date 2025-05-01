@@ -22,6 +22,7 @@ def strategy_round_2(
         for opp in opponents_history
         if len(my_history.get(opp, [])) == 0
     ]
+    
     if unplayed:
         next_opponent = unplayed[0]
     else:
